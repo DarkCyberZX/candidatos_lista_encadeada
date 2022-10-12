@@ -1,1 +1,0 @@
-# candidatos_lista_encadeada
