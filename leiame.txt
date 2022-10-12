@@ -1,0 +1,4 @@
+integrante : João Victhor Monteiro Barros  
+consultei esse video no youtube: https://www.youtube.com/watch?v=jIM87UqOq3g&t=1974s  e alguns codigos de outras pessoas que fizeram o projeto.
+acredito que consegui fazer tudo que foi proposto.
+tive alguns problemas para compreender lista encadeada de forma profunda mas consegui desenvolver o projeto.
