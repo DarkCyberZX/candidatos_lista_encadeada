@@ -21,7 +21,7 @@ class Encadeada:
     def opcoes(self,resposta):
         if resposta == "1":
             candidato = str(input("Digite o nome do Candidato: ")).capitalize()
-            candidatos_encadeada.adicionar_candidato(candidato)
+            print(candidatos_encadeada.adicionar_candidato(candidato))
 
         elif resposta == "2":
             print(candidatos_encadeada.primeiro_candidato())
@@ -61,20 +61,14 @@ class Encadeada:
                 ponteiro = ponteiro.proximo
             ponteiro.proximo = node
         self.tamanho += 1
-        print("Candidato adicionado com sucesso.\n")
+        return("Candidato adicionado com sucesso.\n")
 
     def remover_candidato(self):
         if len(candidatos_encadeada) > 0:
             self.head = self.head.proximo
             self.tamanho -= 1
-        else:
-            return("fila Vazia. \n")
-
-
-        if self.head is None:
-            self.head = None
-
-        return ("Candidato removido com sucesso. \n")
+            return ("Candidato removido com sucesso. \n")
+        return("fila Vazia. \n")
 
 
     def primeiro_candidato(self) :
